@@ -1,7 +1,7 @@
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
-node_modules
+
 
 # Folder config file
 Desktop.ini
@@ -24,7 +24,7 @@ $RECYCLE.BIN/
 
 # OSX
 # =========================
-
+node_modules
 .DS_Store
 .AppleDouble
 .LSOverride
