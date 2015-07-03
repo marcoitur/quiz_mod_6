@@ -1,4 +1,4 @@
-// GET /quizes/question
+// GET /quizes/question "modificado"
 exports.author = function(req, res) {
    res.render('author', {encabezado: 'Bienvenidos a la sección del Autor'});
 };

@@ -1,4 +1,4 @@
-// GET /quizes/question
+// GET /quizes/question "modificado"
 exports.question = function(req, res) {
    res.render('quizes/question', {pregunta: 'Capital de Italia'});
 };

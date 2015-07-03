@@ -4,7 +4,7 @@ var router = express.Router();
 var quizController = require('../controllers/quiz_controller');
 var authorController = require("../controllers/author_controller");
 
-/* GET home page. */
+/* GET home page. "modificado" */
 router.get('/', function(req, res) {
   res.render('index', { title: 'Quiz' });
 });
