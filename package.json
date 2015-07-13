@@ -1,25 +1,22 @@
 {
-  "name": "quiz_mod_6",
+  "name": "quiz",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
   },
-<<<<<<< HEAD
-  "engines": {
-    "node": "0.12.2",
-    "npm": "2.7.4"
+  "engines":{
+    "node": "0.12.x",
+    "npm": "2.10.x"
   },
-=======
->>>>>>> parent of 450465f... heroku
   "dependencies": {
-    "body-parser": "~1.8.1",
-    "cookie-parser": "~1.3.3",
-    "debug": "~2.0.0",
-    "ejs": "~0.8.5",
-    "express": "~4.9.0",
+    "body-parser": "~1.12.4",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "ejs": "~2.3.1",
+    "express": "~4.12.4",
     "express-partials": "^0.3.0",
-    "morgan": "~1.3.0",
-    "serve-favicon": "~2.1.3"
+    "morgan": "~1.5.3",
+    "serve-favicon": "~2.2.1"
   }
 }
